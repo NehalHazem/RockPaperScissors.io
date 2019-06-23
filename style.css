@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #d9a7c7, #fffcdc);
+}
+
+.score.mt-5 {
+    background: #5f1155;
+    color: #fff;
+    padding: 8px;
+}
+
+#newGame {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+span#player, #computer {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+main.mt-5.mb-5 {
+    padding-top: 30px;
+}
+
+img {
+    height: 270px;
+}
+
+.choice {
+    cursor: pointer;
+}
